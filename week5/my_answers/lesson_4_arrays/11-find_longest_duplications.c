@@ -75,5 +75,6 @@ int main() {
         printf("No duplications in the array.\n");
     }
 
+    free(array);
     return EXIT_SUCCESS;
 }
